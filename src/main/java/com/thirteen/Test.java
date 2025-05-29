@@ -9,14 +9,15 @@ public class FinchDemo {
         myFinch.playNote(60,0.5);
 
         for (int i = 0; i < 1; i++) {
-            myFinch.setBeak(100, 100, 100);
+           myFinch.setTail("all",255,0,0);
+           myFinch.setBeak(255, 100, 100);
             myFinch.pause(1);
             myFinch.setBeak(0, 0, 0);
             myFinch.pause(1);
         }
 
         myFinch.setTurn("L",90,100);
-        myFinch.setMove("F",30,100);
+        myFinch.setMove("F",20,100);
 
 
 
