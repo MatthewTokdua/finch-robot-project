@@ -16,7 +16,7 @@ public class FinchDemo {
         }
 
 
-        myFinch.moveFinchAndWait(move, f, 200.5, 30);
+        myFinch.setMove(F,10,30);
 
 
 
