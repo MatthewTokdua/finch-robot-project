@@ -8,12 +8,17 @@ public class FinchDemo {
 
         myFinch.playNote(60,0.5);
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 2; i++) {
             myFinch.setBeak(100, 100, 100);
             myFinch.pause(1);
             myFinch.setBeak(0, 0, 0);
             myFinch.pause(1);
         }
+
+
+        myFinch.moveFinchAndWait(String move, String forward, double 200.5, double 30);
+
+
 
         myFinch.stopAll();
         myFinch.disconnect();
