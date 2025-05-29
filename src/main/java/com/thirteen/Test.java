@@ -15,7 +15,7 @@ public class FinchDemo {
             myFinch.pause(1);
         }
 
-
+        myFinch.setTurn("L",90,100);
         myFinch.setMove("F",30,100);
 
 
