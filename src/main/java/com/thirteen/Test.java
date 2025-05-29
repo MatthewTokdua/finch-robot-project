@@ -8,11 +8,12 @@ public class FinchDemo {
 
         myFinch.playNote(60,0.5);
 
-        for (int i = 0; i < 1; i++) {
-           myFinch.setTail("all",255,0,0);
-           myFinch.setBeak(255, 100, 100);
+        for (int i = 0; i < 4; i++) {
+            myFinch.setTail(i+1,255,0,0);
+            myFinch.setBeak(255, 100, 100);
             myFinch.pause(1);
             myFinch.setBeak(0, 0, 0);
+            myFinch.setTail(i+1,0,0,0);
             myFinch.pause(1);
         }
 
