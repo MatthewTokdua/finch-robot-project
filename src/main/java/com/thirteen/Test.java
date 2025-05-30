@@ -10,7 +10,7 @@ public class FinchDemo {
 
         while(flag < 10){
             if (myFinch.getDistance()-5 < 100 && myFinch.getDistance()-5 > 0){
-            myFinch.setMove("F",myFinch.getDistance()-10,10);
+            myFinch.setMove("F",myFinch.getDistance()-5,10);
             flag++;
             myFinch.pause(1);
             }
