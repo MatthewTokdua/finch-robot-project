@@ -17,7 +17,7 @@ public class FinchDemo {
                 myFinch.setTurn("R",90,10);
                 myFinch.pause(1);
                 if (myFinch.getDistance()-15 < 10){
-                    myFinch.setTurn("L",90,10);
+                    myFinch.setTurn("L",180,10);
                     myFinch.pause(1);
                 }
             }
