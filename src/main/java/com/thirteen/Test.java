@@ -9,9 +9,15 @@ public class FinchDemo {
         int flag = 0;
 
         while(flag < 5){
-            myFinch.setMove("F",myFinch.getDistance()-1,10);
+            if (myFinch.getDistance()-5 < 100 && myFinch.getDistance()-5 > 0){
+            myFinch.setMove("F",myFinch.getDistance()-5,10);
             flag++;
             myFinch.pause(1);
+            }
+            else {
+                myFinch.setTurn("R",90,10);
+                myFinch.pause(1);
+            }
         }
 
 
