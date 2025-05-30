@@ -9,7 +9,7 @@ public class FinchDemo {
         int flag = 0;
 
         while(flag < 5){
-            myFinch.setMove(myFinch.getDistance()-1);
+            myFinch.setMove("F",myFinch.getDistance()-1,10);
             flag++;
             myFinch.pause(1);
         }
