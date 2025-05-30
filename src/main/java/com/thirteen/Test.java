@@ -21,7 +21,7 @@ public class FinchDemo {
                     myFinch.pause(1);
                 }
             }
-            flag++;java Test.java
+            flag++;
         }
 
 
