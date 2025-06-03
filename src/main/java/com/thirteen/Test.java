@@ -8,6 +8,7 @@ public class FinchDemo {
 
         //int flag = 0;
         boolean flag = true;
+        int count = 0;
 
         while(flag){ //while loop so the robot moves until it gets to the end
             if (myFinch.getDistance() < 150 && myFinch.getDistance()-5 > 0){ //moves if the robot isn't facing a wall or open air
@@ -18,7 +19,7 @@ public class FinchDemo {
                 myFinch.setTurn("R",90,100);
                 myFinch.pause(1);
                 if (myFinch.getDistance()-15 < 10){
-                    myFinch.setTurn("L",180,100);
+                    myFinch.setTurn("R",180,100);
                     myFinch.pause(1);
                 }
             }
