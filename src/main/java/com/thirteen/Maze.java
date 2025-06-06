@@ -7,10 +7,10 @@ public class Maze {
         Finch myFinch = new Finch();
 
         //int flag = 0;
-        boolean flag = true;
+        boolean flag = false;
         int count = 0;
 
-        while(!flag){ //while loop so the robot moves until it gets to the end
+        while(flag){ //while loop so the robot moves until it gets to the end
             if (myFinch.getDistance() < 150 && myFinch.getDistance()-5 > 0){ //moves if the robot isn't facing a wall or open air
             myFinch.setMove("F",myFinch.getDistance()-5,100);
             myFinch.pause(1);
@@ -34,10 +34,13 @@ public class Maze {
         myFinch.setTurn("R",90,100);
         myFinch.setMove("F",50,100);
         myFinch.setTurn("R",90,100);
-        myFinch.setMove("F",150,100);
+        myFinch.setMove("F",135,100);
+        myFinch.setTurn("R",90,100);
+        myFinch.setMove("F",10,100);
         myFinch.setTurn("L",90,100);
         myFinch.setMove("F",10,100);
-
+        myFinch.setTurn("L",90,100);
+        myFinch.setMove("F",10,100);
 
         myFinch.stopAll();
         myFinch.disconnect();
