@@ -35,7 +35,7 @@ public class Maze {
         myFinch.setTurn("R",90,100);
         myFinch.setMove("F",50,100);
         myFinch.setTurn("R",90,100);
-        myFinch.setMove("F",125,100);
+        myFinch.setMove("F",120,100);
         myFinch.setTurn("R",90,100);
         myFinch.setMove("F",10,100);
         myFinch.setTurn("L",90,100);
