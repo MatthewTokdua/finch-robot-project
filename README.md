@@ -18,7 +18,17 @@ Your program must demonstrate your understanding of Java programming concepts fr
 - Create well-documented and maintainable code
 - Practice technical communication through presentations and documentation
 
-## Timeline/Checklist
+## Description of Design Choices
+
+
+## Challenges Faced and Solutions
+
+
+## Future Enhacements
+
+
+## Video of Finch Robot
+
 
 ### Planning & Research
 - Choose your challenge: dance, drawing, or maze navigation

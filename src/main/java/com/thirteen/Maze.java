@@ -26,6 +26,7 @@ public class Maze {
             //flag++;
         }
 
+        //preprogrammed instructions to make robot reach the end
         myFinch.setMove("F",110,80);
         myFinch.setTurn("L",90,100);
         myFinch.setMove("F",39,100);
@@ -34,7 +35,7 @@ public class Maze {
         myFinch.setTurn("R",90,100);
         myFinch.setMove("F",50,100);
         myFinch.setTurn("R",90,100);
-        myFinch.setMove("F",135,100);
+        myFinch.setMove("F",125,100);
         myFinch.setTurn("R",90,100);
         myFinch.setMove("F",10,100);
         myFinch.setTurn("L",90,100);
